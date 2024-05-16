@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D434F1012BF62F2700E21EA1 /* InsiderPremierLeagueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434F1002BF62F2700E21EA1 /* InsiderPremierLeagueApp.swift */; };
+		D434F1032BF62F2700E21EA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434F1022BF62F2700E21EA1 /* ContentView.swift */; };
+		D434F1052BF62F2800E21EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D434F1042BF62F2800E21EA1 /* Assets.xcassets */; };
+		D434F1082BF62F2800E21EA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D434F1072BF62F2800E21EA1 /* Preview Assets.xcassets */; };
+		D434F1132BF62F2900E21EA1 /* InsiderPremierLeagueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434F1122BF62F2900E21EA1 /* InsiderPremierLeagueTests.swift */; };
+		D434F11D2BF62F2900E21EA1 /* InsiderPremierLeagueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434F11C2BF62F2900E21EA1 /* InsiderPremierLeagueUITests.swift */; };
+		D434F11F2BF62F2900E21EA1 /* InsiderPremierLeagueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434F11E2BF62F2900E21EA1 /* InsiderPremierLeagueUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D434F10F2BF62F2900E21EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D434F0F52BF62F2700E21EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D434F0FC2BF62F2700E21EA1;
+			remoteInfo = InsiderPremierLeague;
+		};
+		D434F1192BF62F2900E21EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D434F0F52BF62F2700E21EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D434F0FC2BF62F2700E21EA1;
+			remoteInfo = InsiderPremierLeague;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D434F0FD2BF62F2700E21EA1 /* InsiderPremierLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsiderPremierLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D434F1002BF62F2700E21EA1 /* InsiderPremierLeagueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsiderPremierLeagueApp.swift; sourceTree = "<group>"; };
+		D434F1022BF62F2700E21EA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D434F1042BF62F2800E21EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D434F1072BF62F2800E21EA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D434F1092BF62F2800E21EA1 /* InsiderPremierLeague.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InsiderPremierLeague.entitlements; sourceTree = "<group>"; };
+		D434F10E2BF62F2900E21EA1 /* InsiderPremierLeagueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsiderPremierLeagueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D434F1122BF62F2900E21EA1 /* InsiderPremierLeagueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsiderPremierLeagueTests.swift; sourceTree = "<group>"; };
+		D434F1182BF62F2900E21EA1 /* InsiderPremierLeagueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsiderPremierLeagueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D434F11C2BF62F2900E21EA1 /* InsiderPremierLeagueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsiderPremierLeagueUITests.swift; sourceTree = "<group>"; };
+		D434F11E2BF62F2900E21EA1 /* InsiderPremierLeagueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsiderPremierLeagueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D434F0FA2BF62F2700E21EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D434F10B2BF62F2900E21EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D434F1152BF62F2900E21EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D434F0F42BF62F2700E21EA1 = {
+			isa = PBXGroup;
+			children = (
+				D434F0FF2BF62F2700E21EA1 /* InsiderPremierLeague */,
+				D434F1112BF62F2900E21EA1 /* InsiderPremierLeagueTests */,
+				D434F11B2BF62F2900E21EA1 /* InsiderPremierLeagueUITests */,
+				D434F0FE2BF62F2700E21EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D434F0FE2BF62F2700E21EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D434F0FD2BF62F2700E21EA1 /* InsiderPremierLeague.app */,
+				D434F10E2BF62F2900E21EA1 /* InsiderPremierLeagueTests.xctest */,
+				D434F1182BF62F2900E21EA1 /* InsiderPremierLeagueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D434F0FF2BF62F2700E21EA1 /* InsiderPremierLeague */ = {
+			isa = PBXGroup;
+			children = (
+				D434F1002BF62F2700E21EA1 /* InsiderPremierLeagueApp.swift */,
+				D434F1022BF62F2700E21EA1 /* ContentView.swift */,
+				D434F1042BF62F2800E21EA1 /* Assets.xcassets */,
+				D434F1092BF62F2800E21EA1 /* InsiderPremierLeague.entitlements */,
+				D434F1062BF62F2800E21EA1 /* Preview Content */,
+			);
+			path = InsiderPremierLeague;
+			sourceTree = "<group>";
+		};
+		D434F1062BF62F2800E21EA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D434F1072BF62F2800E21EA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D434F1112BF62F2900E21EA1 /* InsiderPremierLeagueTests */ = {
+			isa = PBXGroup;
+			children = (
+				D434F1122BF62F2900E21EA1 /* InsiderPremierLeagueTests.swift */,
+			);
+			path = InsiderPremierLeagueTests;
+			sourceTree = "<group>";
+		};
+		D434F11B2BF62F2900E21EA1 /* InsiderPremierLeagueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D434F11C2BF62F2900E21EA1 /* InsiderPremierLeagueUITests.swift */,
+				D434F11E2BF62F2900E21EA1 /* InsiderPremierLeagueUITestsLaunchTests.swift */,
+			);
+			path = InsiderPremierLeagueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D434F0FC2BF62F2700E21EA1 /* InsiderPremierLeague */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D434F1222BF62F2900E21EA1 /* Build configuration list for PBXNativeTarget "InsiderPremierLeague" */;
+			buildPhases = (
+				D434F0F92BF62F2700E21EA1 /* Sources */,
+				D434F0FA2BF62F2700E21EA1 /* Frameworks */,
+				D434F0FB2BF62F2700E21EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsiderPremierLeague;
+			productName = InsiderPremierLeague;
+			productReference = D434F0FD2BF62F2700E21EA1 /* InsiderPremierLeague.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D434F10D2BF62F2900E21EA1 /* InsiderPremierLeagueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D434F1252BF62F2900E21EA1 /* Build configuration list for PBXNativeTarget "InsiderPremierLeagueTests" */;
+			buildPhases = (
+				D434F10A2BF62F2900E21EA1 /* Sources */,
+				D434F10B2BF62F2900E21EA1 /* Frameworks */,
+				D434F10C2BF62F2900E21EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D434F1102BF62F2900E21EA1 /* PBXTargetDependency */,
+			);
+			name = InsiderPremierLeagueTests;
+			productName = InsiderPremierLeagueTests;
+			productReference = D434F10E2BF62F2900E21EA1 /* InsiderPremierLeagueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D434F1172BF62F2900E21EA1 /* InsiderPremierLeagueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D434F1282BF62F2900E21EA1 /* Build configuration list for PBXNativeTarget "InsiderPremierLeagueUITests" */;
+			buildPhases = (
+				D434F1142BF62F2900E21EA1 /* Sources */,
+				D434F1152BF62F2900E21EA1 /* Frameworks */,
+				D434F1162BF62F2900E21EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D434F11A2BF62F2900E21EA1 /* PBXTargetDependency */,
+			);
+			name = InsiderPremierLeagueUITests;
+			productName = InsiderPremierLeagueUITests;
+			productReference = D434F1182BF62F2900E21EA1 /* InsiderPremierLeagueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D434F0F52BF62F2700E21EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D434F0FC2BF62F2700E21EA1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D434F10D2BF62F2900E21EA1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D434F0FC2BF62F2700E21EA1;
+					};
+					D434F1172BF62F2900E21EA1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D434F0FC2BF62F2700E21EA1;
+					};
+				};
+			};
+			buildConfigurationList = D434F0F82BF62F2700E21EA1 /* Build configuration list for PBXProject "InsiderPremierLeague" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D434F0F42BF62F2700E21EA1;
+			productRefGroup = D434F0FE2BF62F2700E21EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D434F0FC2BF62F2700E21EA1 /* InsiderPremierLeague */,
+				D434F10D2BF62F2900E21EA1 /* InsiderPremierLeagueTests */,
+				D434F1172BF62F2900E21EA1 /* InsiderPremierLeagueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D434F0FB2BF62F2700E21EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D434F1082BF62F2800E21EA1 /* Preview Assets.xcassets in Resources */,
+				D434F1052BF62F2800E21EA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D434F10C2BF62F2900E21EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D434F1162BF62F2900E21EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D434F0F92BF62F2700E21EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D434F1032BF62F2700E21EA1 /* ContentView.swift in Sources */,
+				D434F1012BF62F2700E21EA1 /* InsiderPremierLeagueApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D434F10A2BF62F2900E21EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D434F1132BF62F2900E21EA1 /* InsiderPremierLeagueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D434F1142BF62F2900E21EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D434F11D2BF62F2900E21EA1 /* InsiderPremierLeagueUITests.swift in Sources */,
+				D434F11F2BF62F2900E21EA1 /* InsiderPremierLeagueUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D434F1102BF62F2900E21EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D434F0FC2BF62F2700E21EA1 /* InsiderPremierLeague */;
+			targetProxy = D434F10F2BF62F2900E21EA1 /* PBXContainerItemProxy */;
+		};
+		D434F11A2BF62F2900E21EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D434F0FC2BF62F2700E21EA1 /* InsiderPremierLeague */;
+			targetProxy = D434F1192BF62F2900E21EA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D434F1202BF62F2900E21EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D434F1212BF62F2900E21EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D434F1232BF62F2900E21EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InsiderPremierLeague/InsiderPremierLeague.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InsiderPremierLeague/Preview Content\"";
+				DEVELOPMENT_TEAM = RU773P5475;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.egecam.InsiderPremierLeague;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D434F1242BF62F2900E21EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InsiderPremierLeague/InsiderPremierLeague.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InsiderPremierLeague/Preview Content\"";
+				DEVELOPMENT_TEAM = RU773P5475;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.egecam.InsiderPremierLeague;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D434F1262BF62F2900E21EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RU773P5475;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.egecam.InsiderPremierLeagueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsiderPremierLeague.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsiderPremierLeague";
+			};
+			name = Debug;
+		};
+		D434F1272BF62F2900E21EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RU773P5475;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.egecam.InsiderPremierLeagueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsiderPremierLeague.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsiderPremierLeague";
+			};
+			name = Release;
+		};
+		D434F1292BF62F2900E21EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RU773P5475;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.egecam.InsiderPremierLeagueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = InsiderPremierLeague;
+			};
+			name = Debug;
+		};
+		D434F12A2BF62F2900E21EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RU773P5475;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.egecam.InsiderPremierLeagueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = InsiderPremierLeague;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D434F0F82BF62F2700E21EA1 /* Build configuration list for PBXProject "InsiderPremierLeague" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D434F1202BF62F2900E21EA1 /* Debug */,
+				D434F1212BF62F2900E21EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D434F1222BF62F2900E21EA1 /* Build configuration list for PBXNativeTarget "InsiderPremierLeague" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D434F1232BF62F2900E21EA1 /* Debug */,
+				D434F1242BF62F2900E21EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D434F1252BF62F2900E21EA1 /* Build configuration list for PBXNativeTarget "InsiderPremierLeagueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D434F1262BF62F2900E21EA1 /* Debug */,
+				D434F1272BF62F2900E21EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D434F1282BF62F2900E21EA1 /* Build configuration list for PBXNativeTarget "InsiderPremierLeagueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D434F1292BF62F2900E21EA1 /* Debug */,
+				D434F12A2BF62F2900E21EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D434F0F52BF62F2700E21EA1 /* Project object */;
+}
